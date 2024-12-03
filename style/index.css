@@ -1,0 +1,76 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos {
+  height: 10rem;
+  width: fit-content;
+  padding: 1.5rem;
+  transition: 0.2s linear;
+}
+.logos:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.html-container,
+.css-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  width: 40%;
+}
+
+.html-container .logo-container {
+  filter: drop-shadow(0 0 0.5rem #842e16);
+}
+
+.css-container .logo-container {
+  filter: drop-shadow(0 0 0.5rem #0c3d61);
+}
+
+.desc {
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: "Tinos", sans-serif;
+}
+
+.info {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.title-2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Tinos", sans-serif;
+}
+
+.title-3 {
+  font-weight: 900;
+  display: inline;
+}
+
+.info-2 {
+  display: inline;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
